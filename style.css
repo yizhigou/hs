@@ -3,8 +3,8 @@ body {
 	position: relative;
 	padding: 0;
 	margin: 0;
-	background: url('image.jpg') 20% center no-repeat;
-	background-size: cover;
+	/*background: url('image.jpg') 20% center no-repeat;
+	background-size: cover;*/
 }
 
 body:before {
@@ -14,7 +14,7 @@ body:before {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(9, 130, 10, 0.4);
+	background: rgba(9, 130, 10, 0.64);
 }
 
 #overlay {
@@ -55,6 +55,7 @@ button {
 	padding: 5px 10px;
 	text-align: left;
 	outline: none;
+	cursor: pointer;
 }
 
 button:hover {
